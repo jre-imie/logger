@@ -6,9 +6,11 @@ simple rest client/server made with kotlin
  * gradle 3+
  
 ### build
-’’’
+```
 gradle shadowJar
-’’’
+```
 
 ### run
+```
 java -jar build/libs/logger.jar
+```
