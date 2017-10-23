@@ -14,3 +14,6 @@ gradle shadowJar
 ```
 java -jar build/libs/logger.jar
 ```
+
+### URL
+/hello
