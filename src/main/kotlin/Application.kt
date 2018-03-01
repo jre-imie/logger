@@ -10,7 +10,7 @@ private val log = KotlinLogging.logger {}
 
 fun main(args: Array<String>) {
 
-    port(7001)
+    port(8080)
     get("/hello") { _, res ->
         log.info("hello rest call")
         res.status(200)
