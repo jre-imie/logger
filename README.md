@@ -17,3 +17,10 @@ java -jar build/libs/logger.jar
 
 ### URL
 /hello
+
+### Docker
+
+```
+docker build -t logger .
+docker run -d -p7001:7001 logger
+```
